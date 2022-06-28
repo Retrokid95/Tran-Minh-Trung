@@ -1,0 +1,239 @@
+@font-face { src: url(./font/EVANGELION.otf);
+font-family: Evangelion;}
+
+@font-face { src: url(./font/Baunk.otf);
+font-family: Baunk;}
+
+.header{ 
+    background: rgba( 255, 252, 252, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 15.5px );
+    -webkit-backdrop-filter: blur( 15.5px );
+    position: absolute;
+    top : 0;
+    width: 100%;
+    z-index: 1;
+    
+}
+.body{ 
+    font-family: Baunk;
+}
+
+.title { 
+    font-family: Evangelion;
+    font-size: 80px;
+    color:rgb(209, 11, 11) ; 
+}
+
+.title1 { 
+    font-family: Evangelion;
+    font-size: 40px;
+    color:rgb(209, 11, 11) ; 
+}
+.nav ul { 
+    list-style: none;
+    ;
+}
+
+.nav li { 
+    margin: 0 10px;
+    position: relative;
+    
+}
+
+.nav li a{ 
+    font-size: 16px;
+    color: rgb(209, 11, 11);
+    text-decoration: none;
+}
+
+.nav li a:hover { 
+color: rgb(36, 36, 36)
+
+;
+}
+
+.logo img { width: 35%;
+}
+
+.banner{ 
+    height: 100vh;
+   overflow: hidden;
+}
+
+.banner video { 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.sub-menu {   
+    background: rgba( 255, 252, 252, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 15.5px );
+    -webkit-backdrop-filter: blur( 15.5px );
+    width: 500px;
+    position: absolute;
+    top: 25px;
+    left:-6px;
+    visibility: hidden;
+    opacity: 0;
+    padding: 16px 0;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.main{
+    background-color: rgb(10, 8, 9);
+}
+.sub-menu li { 
+    margin: 0 8px
+}
+
+.nav li:hover .sub-menu{ 
+opacity: 1;
+ visibility: visible;}
+
+.section1  { 
+width: 100%;
+background-color: rgb(10, 8, 9);
+}
+
+.end{ margin: 80px;}
+
+.box { 
+margin: 50px;
+letter-spacing: 200px;
+text-align: center;
+}
+
+.section2 {
+    margin: 100px
+ }
+
+ .box2{ 
+    overflow: hidden;
+    position: relative;
+    width: 553px;
+ }
+
+ .feature img { width: 100%;}
+
+ .title2 { 
+    font-family: Evangelion;
+    font-size: 150px;
+    color:rgb(209, 11, 11) ;
+letter-spacing: px; }
+
+
+.content{ 
+    width: 553px;
+    height: 0;
+    overflow: hidden;
+    background-color: rgba(43, 43, 43, 0.555);
+    color: aliceblue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+transition-duration: 2s;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.box2:hover .content{ 
+    height: 100%;
+}
+.title3{ 
+    font-family:Evangelion ;
+    color: rgb(209, 11, 11) ;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+
+.section3  { 
+    width: 100%;
+    background-color: rgb(10, 8, 9);
+    margin: 50px 0;
+    }
+.feature video { 
+    height: 750px;
+}
+.body3{ 
+    font-family: Baunk;
+    color: rgb(209, 11, 11) ;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+
+.section4 { 
+padding: 70px 0 ;
+
+}
+
+.feature4 { 
+    overflow: hidden;
+   height:500px;
+
+}
+
+.feature4 img { 
+    height: 100%;
+}
+
+.content3 { 
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding: 15px;
+
+}
+
+.box4 { 
+    width: 350px;
+    overflow: hidden;
+}
+
+.body4{ 
+    font-family: Baunk;
+    color: rgb(209, 11, 11) ;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+
+.footer{
+    background: rgba( 255, 252, 252, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 15.5px );
+    -webkit-backdrop-filter: blur( 15.5px );
+height: 300px;}
+
+
+.nav2 ul{
+    list-style: none; 
+
+}
+.nav2 li {
+    
+    margin: 0 16px;
+
+}
+
+.nav2 li a { 
+    font-family: Baunk;
+    font-size: 18px;
+    color : rgb(209, 11, 11);
+    line-height: 50px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.Akira { 
+    margin:60px
+}
